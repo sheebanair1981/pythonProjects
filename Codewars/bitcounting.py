@@ -1,3 +1,4 @@
+#function to count number of 1's in a binary representation of a number.
 def count_bits(n):
     binnum = bin(n)
     num_ones = binnum.count('1')
